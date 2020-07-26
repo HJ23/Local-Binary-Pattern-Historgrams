@@ -82,7 +82,7 @@ image3=obj.addImage("./img/mark.png")
 gradient3=obj.convolve()
 feature3=obj.feature_extractor(gradient3)
 
-# lower is better : distance between 2 image is low -> similar
+# lower is better : if distance between 2 image is low then they are similar
 
 print(distance(feature1,feature2))
 print(distance(feature1,feature3))
